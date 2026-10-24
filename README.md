@@ -1,9 +1,9 @@
     # -organize_files.py-python organize_files.py
-
+##run
     from pathlib import Path
     import shutil
 
-FILE_CATEGORIES = {
+    FILE_CATEGORIES = {
     "images": {".jpg", ".jpeg", ".png", ".gif", ".webp", ".heic"},
     "documents": {".pdf", ".doc", ".docx", ".xls", ".xlsx", ".csv", ".ppt", ".pptx", ".txt"},
     "videos": {".mp4", ".mov", ".avi", ".mkv"},
