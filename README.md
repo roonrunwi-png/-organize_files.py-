@@ -44,4 +44,4 @@ def organize_files(source_folder: str) -> None:
         print(f"ย้าย: {item.name} -> {category}/")
 
 if __name__ == "__main__":
-    organize_files("Downloads")  # เปลี่ยนเป็นพาธโฟลเดอร์ที่ต้องการ
+    organize_files("c download files ")  # เปลี่ยนเป็นพาธโฟลเดอร์ที่ต้องการ
