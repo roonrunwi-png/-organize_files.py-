@@ -1,7 +1,7 @@
     # -organize_files.py-python organize_files.py
 
-from pathlib import Path
-import shutil
+    from pathlib import Path
+    import shutil
 
 FILE_CATEGORIES = {
     "images": {".jpg", ".jpeg", ".png", ".gif", ".webp", ".heic"},
@@ -11,7 +11,7 @@ FILE_CATEGORIES = {
     "archives": {".zip", ".rar", ".7z", ".tar", ".gz"},
 }
 
-def get_category(file_extension: str) -> str:
+    def get_category(file_extension: str) -> str:
     """คืนชื่อหมวดหมู่ของไฟล์ตามนามสกุล"""
     for category, extensions in FILE_CATEGORIES.items():
         if file_extension.lower() in extensions:
